@@ -24,7 +24,7 @@ SPARK_EXECUTOR_CORE = "3"
 
 
 import os
-os.environ["PYSPARK_PYTHON"] = "./TTD/playground_py36/bin/python"
+os.environ["PYSPARK_PYTHON"] = ".../playground_py36/bin/python"
 conf = SparkConf().\
         setAppName("Feature Engineering with PySpark").\
         setMaster('yarn-client').\
